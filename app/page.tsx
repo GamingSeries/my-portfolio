@@ -3,7 +3,7 @@ export default function Home() {
     <div className="navbar">
       <div className="headings">
         <u>My Portfolio</u>
-        <img src="" alt="" />
+        
       </div>
     </div>
   );
