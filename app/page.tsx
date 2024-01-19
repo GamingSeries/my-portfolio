@@ -1,10 +1,12 @@
-export default function Home() {
+import React from 'react';
+import MyComponent from '../components/mycomponents';
+
+const HomePage: React.FC = () => {
   return (
-    <div className="navbar">
-      <div className="headings">
-        <u>My Portfolio</u>
-        
-      </div>
+    <div>
+      <MyComponent />
     </div>
   );
-}
+};
+
+export default HomePage;
