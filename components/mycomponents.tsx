@@ -2,16 +2,17 @@ import React from 'react';
 
 const MyComponent: React.FC = () => {
   return (
-    <div className="w-[1512px] h-[1843px] relative bg-gradient-to-b from-rose-700 to-black shadow">
+    <div className="bg-gradient-to-b to-purple-900 from-indigo-600">
       {/* Content */}
       <div className="flex justify-center items-start h-screen">
-        <div className="w-[1512px] text-center text-white text-5xl font-normal font-Karma">
-          My Portfolio
-        </div>
+      <div className="w-[1512px] text-center text-white text-5xl font-normal font-Karma p-7">
+        My Portfolio
+      </div>
+
       </div>
 
       {/* Other sections with different background colors */}
-      <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"></div>
+      <div className=''>
         {/* Content with a transparent background */}
       </div>
 
@@ -26,3 +27,4 @@ const MyComponent: React.FC = () => {
 };
 
 export default MyComponent;
+
