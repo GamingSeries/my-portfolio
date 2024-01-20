@@ -17,7 +17,7 @@ const MyComponent: React.FC = () => {
 
       {/* Profile picture */}
       <img
-        className="w-[50px] h-[50px] md:w-[70px] md:h-[70px] lg:w-[90px] lg:h-[90px] left-[20px] top-[16px] absolute rounded-full"
+        className="w-[35px] h-[35px] md:w-[70px] md:h-[70px] lg:w-[90px] lg:h-[90px] left-[20px] top-[16px] absolute rounded-full"
         src="/images/23bc50b4-9ba0-423a-a149-279afc732e98.JPG"
         alt="Profile"
       />
