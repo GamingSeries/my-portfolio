@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const MyComponent: React.FC = () => {
   return (
@@ -37,12 +38,23 @@ const MyComponent: React.FC = () => {
       </div>
 
       <div className='text-white border rounded-xl p-2 text-center'>
-        <a href="https://github.com/GamingSeries/Neptune" className="block my-4">Neptune</a>
-        <a href="https://github.com/GamingSeries/Face_Recognition_System" className="block my-4">Face Recognition System</a>
-        <a href="https://github.com/GamingSeries/weekly_report_system" className="block my-4">Weekly Report System</a>
-        <a href="https://github.com/GamingSeries/Hospital_Management" className="block my-4">Hospital Management System</a>
-        <a href="https://github.com/GamingSeries/Bank_System" className="block my-4">Bank Report System</a>
+        <Link href="https://github.com/GamingSeries/Neptune">
+          <div className="block my-4 cursor-pointer">Neptune</div>
+        </Link>
+        <Link href="https://github.com/GamingSeries/Face_Recognition_System">
+          <div className="block my-4 cursor-pointer">Face Recognition System</div>
+        </Link>
+        <Link href="https://github.com/GamingSeries/weekly_report_system">
+          <div className="block my-4 cursor-pointer">Weekly Report System</div>
+        </Link>
+        <Link href="https://github.com/GamingSeries/Hospital_Management">
+          <div className="block my-4 cursor-pointer">Hospital Management System</div>
+        </Link>
+        <Link href="https://github.com/GamingSeries/Bank_System">
+          <div className="block my-4 cursor-pointer">Bank Report System</div>
+        </Link>
       </div>
+
 
     </div>
   );
