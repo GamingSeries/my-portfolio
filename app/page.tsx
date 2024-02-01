@@ -1,5 +1,5 @@
 import React from 'react';
-import MyComponent from '../components/mycomponents';
+import MyComponent from '../components/navbar';
 
 const HomePage: React.FC = () => {
   return (
