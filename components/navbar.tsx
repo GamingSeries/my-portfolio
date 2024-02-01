@@ -22,15 +22,28 @@ const MyComponent: React.FC = () => {
         />
       </div>
 
-      <div className="text-white text-2xl md:text-3xl lg:text-4xl font-normal font-[Karma] p-4 md:p-7 lg:p-8 text-left" style={{ marginTop: '20px', marginRight: 'auto' }}>
+      <div className="text-white lg:text-2xl font-normal font-[Karma] p-4 md:p-7 lg:p-8 text-left" style={{ marginTop: '20px', marginRight: 'auto' }}>
         About Me:
       </div>
 
-      <div className="text-white border rounded-lg p-4" style={{ margin: 0, width: '60%', textAlign: 'justify' }}>
+      <div className="text-white border rounded-xl p-4" style={{ margin: 0, width: '60%', textAlign: 'justify', marginRight: '10em' }}>
         Hey there! 🚀 I'm a 3rd-year Computer Science student on a mission to become a software developer, and let me tell you, it's been one heck of an adventure! 🌟
         Debugging is like being a tech detective solving virtual mysteries, and overcoming challenges feels like reaching the summit of a digital mountain. 
         With every new concept, it's like unlocking a secret level in my own coding game, bringing me one step closer to being a coding maestro.
       </div>
+
+      <div className='text-white p-9 lg:text-2xl underline'>
+        Projects On Github
+      </div>
+
+      <div className='text-white border rounded-xl p-2 text-center'>
+        <a href="https://github.com/GamingSeries/Neptune" className="block my-4">Neptune</a>
+        <a href="https://github.com/GamingSeries/Face_Recognition_System" className="block my-4">Face Recognition System</a>
+        <a href="https://github.com/GamingSeries/weekly_report_system" className="block my-4">Weekly Report System</a>
+        <a href="https://github.com/GamingSeries/Hospital_Management" className="block my-4">Hospital Management System</a>
+        <a href="https://github.com/GamingSeries/Bank_System" className="block my-4">Bank Report System</a>
+      </div>
+
     </div>
   );
 };
