@@ -11,3 +11,11 @@
     --foreground-rgb: 255, 255, 255;
   }
 }
+
+/* globals.css */
+
+body {
+  @apply bg-gradient-to-b from-indigo-950 to-black shadow;
+  margin: 0;
+  padding: 0;
+}
