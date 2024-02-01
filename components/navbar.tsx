@@ -26,7 +26,7 @@ const MyComponent: React.FC = () => {
         About Me:
       </div>
 
-      <div className="text-white " style={{ margin:0, width: '40%', textAlign: 'justify'}}>
+      <div className="text-white border rounded-lg p-4" style={{ margin: 0, width: '40%', textAlign: 'justify' }}>
         Hey there! 🚀 I'm a 3rd-year Computer Science student on a mission to become a software developer, and let me tell you, it's been one heck of an adventure! 🌟
         Debugging is like being a tech detective solving virtual mysteries, and overcoming challenges feels like reaching the summit of a digital mountain. 
         With every new concept, it's like unlocking a secret level in my own coding game, bringing me one step closer to being a coding maestro.
