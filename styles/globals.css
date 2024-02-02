@@ -4,18 +4,32 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
+  --light-background: #FFFFFF;
+  --light-shadow: rgba(0, 0, 0, 0.1);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --foreground-rgb: 0, 0, 0;
+    --background: #FFFFFF; /* Light background color */
+    --shadow: rgba(0, 0, 0, 0.1); /* Light shadow color */
+  }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
+    --background: #111827; /* Dark background color */
+    --shadow: rgba(0, 0, 0, 0.4); /* Dark shadow color */
   }
 }
 
 /* globals.css */
 
 body {
-  @apply bg-gradient-to-b from-indigo-950 to-black shadow;
+  background: var(--background, var(--light-background)); /* Use light background by default */
+  @apply bg-gradient-to-b from-indigo-950 to-black shadow; /* Dark gradient */
   margin: 0;
   padding: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Common box-shadow with light color */
 }
