@@ -11,23 +11,23 @@ const MyComponent: React.FC = () => {
       </div>
       
       {/* Profile picture and About Me Section */}
-      <div className="flex items-start">
+      {/* <div className=" flex pt-8">
         {/* Profile picture */}
-        <Image
-          className="w-[40px] h-[40px] md:w-[50px] md:h-[50px] lg:w-[60px] lg:h-[60px] absolute rounded-full"
+        {/* <Image
+          className=" flex self-center w-[40px] h-[40px] md:w-[50px] md:h-[50px] lg:w-[60px] lg:h-[60px] absolute rounded-full"
           src="/images/23bc50b4-9ba0-423a-a149-279afc732e98.JPG"
           alt="Profile Picture"
           width={60}
           height={60}
           style={{ left: '20px', top: '16px' }}
         />
-      </div>
+      </div> */}
 
       <div className="text-white lg:text-2xl font-normal font-[Karma] p-4 md:p-7 lg:p-8 text-left" style={{ marginTop: '20px', marginRight: 'auto' }}>
         About Me:
       </div>
 
-      <div className="text-white border rounded-xl p-5 " style={{ marginRight:'35em', width: '45%', textAlign: 'justify'}}>
+      <div className="text-white border rounded-xl p-4 mx-auto sm:w-2/3 md:w-3/4 lg:w-2/3 xl:w-2/3">
         Hey there! 🚀 I'm a 3rd-year Computer Science student on a mission to become a software developer, and let me tell you, it's been one heck of an adventure! 🌟
         Debugging is like being a tech detective solving virtual mysteries, and overcoming challenges feels like reaching the summit of a digital mountain. 
         With every new concept, it's like unlocking a secret level in my own coding game, bringing me one step closer to being a coding maestro.

@@ -1,10 +1,16 @@
 import React from 'react';
-import MyComponent from '../components/navbar';
+import Navbar from '../components/navbar';
 
 const HomePage: React.FC = () => {
   return (
-    <div>
-      <MyComponent />
+    <div className='h-screen'>
+      <Navbar />
+      <div className="flex flex-auto center items-center justify-center text-3xl text-white text-center font-source-code-pro">
+        Hi There!
+        <div className='text-white justify-center text-center text-3xl font-source-code-pro'>
+        <br /> Muneeb Farooq
+        </div>
+      </div>
     </div>
   );
 };
