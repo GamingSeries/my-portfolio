@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/navbar';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const HomePage: React.FC = () => {
   return (
