@@ -10,8 +10,8 @@ const HomePage: React.FC = () => {
           Hi I am Muneeb Farooq
         </section>
       </div>
-
-      <div className='box-border border-white'> 
+      <div className='box-border bg-white mr-4'> 
+      
       </div>
     </div>
   );
